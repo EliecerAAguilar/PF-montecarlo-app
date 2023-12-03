@@ -1,0 +1,98 @@
+<resources>
+
+    <string name="app_name">PF-Montecarlo</string>
+
+    //Buttons
+    <string name="btn_null">---</string>
+
+    //titles
+    <string name="title_RandomWalk">Tambaleo del Borracho.</string>
+    <string name="title_BuffonNeedles">Agujas de Buffón</string>
+    <string name="title_AreaDownCurve">Área bajo la Curva.</string>
+    <string name="title_NumberExpRandom">Generación de Números Aleatorios.</string>
+    <string name="title_BreakdownMachine">Descompostura de una Máquina.</string>
+    <string name="title_Invetory">Inventario</string>
+    <string name="title_Function_Effectiviness">Función de Efectividad.</string>
+    <string name="title_Queue">Estrategia de Servicios</string>
+
+    <string name="text_button">button</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_number_exp_random">NumberExpRandom</string>
+    <string name="tab_text_1">Metodo 1</string>
+    <string name="tab_text_2">Metodo 2</string>
+    <string name="tab_text_3">Metodo 3</string>
+    <string name="tab_text_4">Metodo 4</string>
+
+    <string name="breakdown_01">Esta tabla tiene un conjuto de números al azar que se usaron para escoger los tiempos de descompostura y tiempos de reparación en proporción a las probabilidades de ocurrencia de las distribuciones originales.</string>
+    <string name="breakdown_02">La simulación trata una cola, que serían las máquinas descompuesta y un servidor, que sería el mecánico. El mecánico puede reparar una maquina a la vez. Las maquinas se descompone cada cierto tiempo y este tiempo es estocásticos. Si cuando se daña una maquina y el mecánico está ocupado, la maquina pasara a cola. Mientras el mecánico no se encuentre reparando ninguna máquina, se mantendrá en estado ocioso y en espera de otro cliente.</string>
+
+    <string name="inventory_01">Con el propósito de analizar el comportamiento de un sistema de inventario, se describirá su comportamiento a través de modelos matemáticos y observaremos sus resultados con el siguiente ejemplo:</string>
+    <string name="inventory_02">Supongamos que la demanda diaria de un artículo particular puede expresarse mediante la distribución mostrada en la figura y que se desea generar un patrón de demanda para diez días. El primer paso es establecer la función de distribución acumulativa</string>
+    <string name="inventory_03">El siguiente paso es formar la tabla mostrada en la figura y asignar números índice. Los números índice se asignan de manera que puedan reflejar la probabilidad de diversas demandas.</string>
+    <string name="inventory_04">La demanda diaria de este ejemplo se mostró como un valor entero que comienza en 0 y termina en 5, los valores intermedios están en progresión aritmética.  El patrón de demanda para el período de 10 días mostrados en la figura</string>
+    <string name="inventory_05">En la figura nos muestra el patrón de demanda para 10 días, de acuerdo con los números aleatorios y a los números índice. se obtiene con los números aleatorios.</string>
+
+    <string name="function_01">Suponer que la función de efectividad de algún sistema se representa por:</string>
+    <string name="function_02">donde las variables X, Y y Z están descritas por las distribuciones de probabilidad mostradas en la figura</string>
+    <string name="function_03">El problema consiste en determinar, mediante la simulación, la distribución de la función de efectividad. La figura siguiente que nos muestra el número esperado de ocurrencias para los diferentes niveles de demanda en 10,000 ensayos.</string>
+    <string name="function_04">Los resultados de la figura siguiente se obtienen estableciendo las funciones de distribuciones acumuladas de cada variable y asignando números índices.</string>
+    <string name="function_05">Luego de tener los datos iniciales procedemos a la simulación de la ecuación, como lo muestra la figura ahora:</string>
+    <string name="function_06">Lo siguiente, graficamos el resultado de la simulación, esto se aprecia analizando la figura siguiente, en la cual se calcula el valor w para cada prueba utilizando los valores de x, y y z obtenidos a través de muestreo aleatorio. Esto se hace para n experimentos. </string>
+    <string name="function_07">Después de graficar los resultados de la Simulación para los valores w, se puede calcular la media y la desviación típica de w, ya que esta gráfica muestra supuestamente la distribución de probabilidad de w. </string>
+
+    <string name="AreaCurve_01">En esta técnica, se determina la suma inferior, es decir, el área bajo la curva de la función, pero con rectángulos fijos, estos pueden ser desde 1 hasta un número infinito de rectángulos. De la misma forma se realizó la sumatoria superior, es decir rectángulos que sobre pasen el área bajo la curva, de tal forma que nos proporciona una aproximación del área total que existe bajo la curva de la función. </string>
+
+    <string name="Random_01">Suponga que un borracho está parado en la esquina de una calle cuando decide caminar para salir de un embriagues. Asuma que hay igual probabilidad de que vaya hacia el norte, sur, este u oeste. Después de N cantidad de pasos ¿Cuál es la probabilidad de que termine a dos cuadras de donde inició? Se demostrará de la siguiente manera.</string>
+
+    <string name="buffon_01">Este ejemplo permite apreciar una vez más la ingeniosidad de la mente humana para solucionar los problemas, en este caso calcularemos el valor de la constante Pi por medio de simulación utilizando el método de la Aguja de Buffón.</string>
+
+    <string-array name="row_title_breakdown">
+        <item>T. falla      </item>
+        <item>T. reparacion </item>
+        <item>T. arrivo     </item>
+        <item>T. inicial    </item>
+        <item>T. final      </item>
+        <item>T. de espera  </item>
+        <item>T. de ocio    </item>
+    </string-array>
+
+    <string-array name="row_title_invetory">
+        <item>Demanda/Día    </item>
+        <item>Números Índices</item>
+    </string-array>
+
+    <string-array name="row_title_function_01">
+        <item>Demanda/Semana</item>
+        <item>Frecuencia</item>
+    </string-array>
+
+    <string-array name="row_title_function_02">
+        <item>Valor X</item>
+        <item>N. Indice</item>
+        <item>Valor Y</item>
+        <item>N. Indice</item>
+        <item>Valor Z</item>
+        <item>N. Indice</item>
+    </string-array>
+
+    <string-array name="row_title_function_03">
+        <item>N.Prueba</item>
+        <item>Random X</item>
+        <item>X</item>
+        <item>Random Y</item>
+        <item>Y</item>
+        <item>Random Z</item>
+        <item>Z</item>
+    </string-array>
+
+    <string name="action_settings">Configuraciones</string>
+    <string name="action_info">Informacion</string>
+
+    <string name="Descripcion" >La técnica que se aplica para resolver los problemas teóricos citados puede considerarse
+precursora de la simulación en su uso presente. Esta recibe el nombre de Método de
+Montecarlo y está basada en la idea general de utilizar el muestreo para estimar un
+resultado deseado.</string>
+
+</resources>
