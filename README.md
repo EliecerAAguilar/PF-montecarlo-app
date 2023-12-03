@@ -9,19 +9,12 @@
 3.	Función de efectividad.
 4.	Cálculo del área bajo una curva. :x: :chart_with_upwards_trend:
 5.	Cálculo de pi por el método de aguja de buffon :x: :chart_with_upwards_trend:
-6. El tambaleo del borracho. :heavy_check_mark:
+6.  El tambaleo del borracho. :heavy_check_mark:
 7.	Estrategias de servicios.
 8.	Generando una variable aleatoria exponencial.
 9.	Calculando pi con gotas de lluvia.
 10. Aun por elegir.
 
-## Entregables.
-
-1.	Capítulo 7 mejorado en Word. Cada ejemplo muy bien explicado paso a paso e incluir el código fuente.
-2.	Presentación en PowerPoint que explique cada ejemplo de una forma muy detallada.
-3.	App funcionando y que se pueda montar en otros celulares
-
-## Apuntes.
 
 #### Descompostura de una máquina.
 - Usar las distribuciones transcurrido entre descompostura dada en el ejemplo o crear distribuciones con valores aleatorios.
@@ -59,10 +52,3 @@
 - Mostrar y plantear si la actividad diseñada es correcta.
 
 #### Calculando pi con gotas de lluvia.
-
-#### Aun por elegir.
-
-## Errores.
-
-- valores negativos en area bajo la curva.
-- resultados NAN en area bajo la curva.
